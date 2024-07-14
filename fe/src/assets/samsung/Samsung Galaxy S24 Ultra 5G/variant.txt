@@ -1,0 +1,74 @@
+[
+{"color": "Xám Titan",
+"storageCapacity": "256GB",
+"OrigianlPrice": 29690000,
+"sellPrice": 25990000,
+"available": 50
+},
+{"color": "Xám Titan",
+"storageCapacity": "512GB",
+"OrigianlPrice": 32490000,
+"sellPrice": 30990000,
+"available": 50
+},
+{"color": "Xám Titan",
+"storageCapacity": "1TB",
+"OrigianlPrice": 39790000,
+"sellPrice": 36790000,
+"available": 50
+},
+{"color": "Đen Titan",
+"storageCapacity": "256GB",
+"OrigianlPrice": 29690000,
+"sellPrice": 25990000,
+"available": 50
+},
+{"color": "Đen Titan",
+"storageCapacity": "512GB",
+"OrigianlPrice": 32490000,
+"sellPrice": 30990000,
+"available": 50
+},
+{"color": "Đen Titan",
+"storageCapacity": "1TB",
+"OrigianlPrice": 39790000,
+"sellPrice": 36790000,
+"available": 50
+},
+{"color": "Tím Titan",
+"storageCapacity": "256GB",
+"OrigianlPrice": 29690000,
+"sellPrice": 25990000,
+"available": 50
+},
+{"color": "Tím Titan",
+"storageCapacity": "512GB",
+"OrigianlPrice": 32490000,
+"sellPrice": 30990000,
+"available": 50
+},
+{"color": "Tím Titan",
+"storageCapacity": "1TB",
+"OrigianlPrice": 39790000,
+"sellPrice": 36790000,
+"available": 50
+},
+{"color": "Vàng Titan",
+"storageCapacity": "256GB",
+"OrigianlPrice": 29690000,
+"sellPrice": 25990000,
+"available": 50
+},
+{"color": "Vàng Titan",
+"storageCapacity": "512GB",
+"OrigianlPrice": 32490000,
+"sellPrice": 30990000,
+"available": 50
+},
+{"color": "Vàng Titan",
+"storageCapacity": "1TB",
+"OrigianlPrice": 39790000,
+"sellPrice": 36790000,
+"available": 50
+}
+]

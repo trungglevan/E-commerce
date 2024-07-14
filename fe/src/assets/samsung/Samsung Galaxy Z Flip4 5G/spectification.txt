@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 6.7,
+	"screenTechnoloy": "Dynamic AMOLED 2X",
+	"cameraRear": "-Camera góc rộng: 12 MP, f/1.8, PDAF, OIS -Camera góc siêu rộng: 12 MP, f/2.2, 123˚",
+	"cameraFront": "10 MP, f/2.4",
+	"chipset": "Snapdragon 8+ Gen 1 8 nhân",
+	"ram": "8GB",
+	"rom": "128GB",
+	"battery": 3700,
+	"operaSystem": "Android 12",
+	"screenResolution": "1080 x 2640 pixel"
+}

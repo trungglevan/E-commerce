@@ -1,0 +1,97 @@
+[{"color": "Đen",
+"storageCapacity": "128GB",
+"OrigianlPrice": 27390000,
+"sellPrice": 26790000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "256GB",
+"OrigianlPrice": 28990000,
+"sellPrice": 27790000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "512GB",
+"OrigianlPrice": 33990000,
+"sellPrice": 32790000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "1TB",
+"OrigianlPrice": 38990000,
+"sellPrice": 36990000,
+"available": 50
+},
+{"color": "Vàng",
+"storageCapacity": "128GB",
+"OrigianlPrice": 27390000,
+"sellPrice": 26790000,
+"available": 50
+},
+{"color": "Vàng",
+"storageCapacity": "256GB",
+"OrigianlPrice": 28990000,
+"sellPrice": 27790000,
+"available": 50
+},
+{"color": "Vàng",
+"storageCapacity": "512GB",
+"OrigianlPrice": 33990000,
+"sellPrice": 32790000,
+"available": 50
+},
+{"color": "Vàng",
+"storageCapacity": "1TB",
+"OrigianlPrice": 38990000,
+"sellPrice": 36990000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "128GB",
+"OrigianlPrice": 27390000,
+"sellPrice": 26790000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "256GB",
+"OrigianlPrice": 28990000,
+"sellPrice": 27790000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "512GB",
+"OrigianlPrice": 33990000,
+"sellPrice": 32790000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "1TB",
+"OrigianlPrice": 38990000,
+"sellPrice": 36990000,
+"available": 50
+},
+{"color": "Bạc",
+"storageCapacity": "128GB",
+"OrigianlPrice": 27390000,
+"sellPrice": 26790000,
+"available": 50
+},
+{"color": "Bạc",
+"storageCapacity": "256GB",
+"OrigianlPrice": 28990000,
+"sellPrice": 27790000,
+"available": 50
+},
+{"color": "Bạc",
+"storageCapacity": "512GB",
+"OrigianlPrice": 33990000,
+"sellPrice": 32790000,
+"available": 50
+},
+{"color": "Bạc",
+"storageCapacity": "1TB",
+"OrigianlPrice": 38990000,
+"sellPrice": 36990000,
+"available": 500
+}
+]

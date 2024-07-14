@@ -1,0 +1,110 @@
+[
+{"color": "Xanh lá",
+"storageCapacity": "64GB",
+"OrigianlPrice": 12090000,
+"sellPrice": 11590000,
+"available": 50
+},
+{"color": "Xanh lá",
+"storageCapacity": "128GB",
+"OrigianlPrice": 13490000,
+"sellPrice": 12490000,
+"available": 50
+},
+{"color": "Xanh lá",
+"storageCapacity": "256GB",
+"OrigianlPrice": 16390000,
+"sellPrice": 15590000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "64GB",
+"OrigianlPrice": 12090000,
+"sellPrice": 11590000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "128GB",
+"OrigianlPrice": 13490000,
+"sellPrice": 12490000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "256GB",
+"OrigianlPrice": 16390000,
+"sellPrice": 15590000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "64GB",
+"OrigianlPrice": 12090000,
+"sellPrice": 11590000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "128GB",
+"OrigianlPrice": 13490000,
+"sellPrice": 12490000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "256GB",
+"OrigianlPrice": 16390000,
+"sellPrice": 15590000,
+"available": 50
+},
+{"color": "Trắng",
+"storageCapacity": "64GB",
+"OrigianlPrice": 12090000,
+"sellPrice": 11590000,
+"available": 50
+},
+{"color": "Trắng",
+"storageCapacity": "128GB",
+"OrigianlPrice": 13490000,
+"sellPrice": 12490000,
+"available": 50
+},
+{"color": "Trắng",
+"storageCapacity": "256GB",
+"OrigianlPrice": 16390000,
+"sellPrice": 15590000,
+"available": 50
+},
+{"color": "Đỏ",
+"storageCapacity": "64GB",
+"OrigianlPrice": 12090000,
+"sellPrice": 11590000,
+"available": 50
+},
+{"color": "Đỏ",
+"storageCapacity": "128GB",
+"OrigianlPrice": 13490000,
+"sellPrice": 12490000,
+"available": 50
+},
+{"color": "Đỏ",
+"storageCapacity": "256GB",
+"OrigianlPrice": 16390000,
+"sellPrice": 15590000,
+"available": 50
+},
+{"color": "Xanh dương",
+"storageCapacity": "64GB",
+"OrigianlPrice": 12090000,
+"sellPrice": 11590000,
+"available": 50
+},
+{"color": "Xanh dương",
+"storageCapacity": "128GB",
+"OrigianlPrice": 13490000,
+"sellPrice": 12490000,
+"available": 50
+},
+{"color": "Xanh dương",
+"storageCapacity": "256GB",
+"OrigianlPrice": 16390000,
+"sellPrice": 15590000,
+"available": 50
+}
+]

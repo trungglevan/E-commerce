@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 6.8,
+	"screenTechnoloy": "Dynamic AMOLED 2X",
+	"cameraRear": "-Camera chính: 200MP, Laser AF, OIS -Camera: 50MP, PDAF, OIS, zoom quang học 5x -Camera tele: 10MP -Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚",
+	"cameraFront": "12 MP, f/2.2",
+	"chipset": "Snapdragon 8 Gen 3 For Galaxy",
+	"ram": "12GB",
+	"rom": "256GB",
+	"battery": 5000,
+	"operaSystem": "Android 14, One UI 6.1",
+	"screenResolution": "1440 x 3120 pixel"
+}

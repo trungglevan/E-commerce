@@ -1,0 +1,56 @@
+[
+{"color": "Xanh",
+"storageCapacity": "256GB",
+"OrigianlPrice": 31390000,
+"sellPrice": 30190000,
+"available": 50
+},
+{"color": "Xanh",
+"storageCapacity": "512GB",
+"OrigianlPrice": 33390000,
+"sellPrice": 32290000,
+"available": 50
+},
+{"color": "Xanh",
+"storageCapacity": "1TB",
+"OrigianlPrice": 42390000,
+"sellPrice": 40990000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "256GB",
+"OrigianlPrice": 31390000,
+"sellPrice": 30190000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "512GB",
+"OrigianlPrice": 33390000,
+"sellPrice": 32290000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "1TB",
+"OrigianlPrice": 42390000,
+"sellPrice": 40990000,
+"available": 50
+},
+{"color": "Kem",
+"storageCapacity": "256GB",
+"OrigianlPrice": 31390000,
+"sellPrice": 30190000,
+"available": 50
+},
+{"color": "Kem",
+"storageCapacity": "512GB",
+"OrigianlPrice": 33390000,
+"sellPrice": 32290000,
+"available": 50
+},
+{"color": "Kem",
+"storageCapacity": "1TB",
+"OrigianlPrice": 42390000,
+"sellPrice": 40990000,
+"available": 50
+}
+]

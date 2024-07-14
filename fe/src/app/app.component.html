@@ -1,0 +1,158 @@
+<div class="container-header bg-light py-3">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" routerLink="/products">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#" routerLink="/posts" routerLinkActive="active">Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" routerLink="/addProduct" routerLinkActive="active">Add Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+              <a [class.d-none]="auth" [class.d-block]="!auth" class="nav-link" aria-current="page" href="#"
+                routerLink="/login" routerLinkActive="active">Login</a>
+              <a [class.d-none]="!auth" [class.d-block]="auth" class="nav-link" aria-current="page" href="#"
+                routerLink="/logout" routerLinkActive="active" (click)="logOut()">Logout</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="main container">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="container-footer bg-light">
+  <div class="content-2 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="customer-care">
+            <div class="title fw-bold">Chăm sóc khách hàng</div>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-secondary">Trung tâm trợ giúp</a></li>
+              <li><a href="#" class="text-secondary">Hướng dẫn mua hàng</a></li>
+              <li><a href="#" class="text-secondary">Hướng dẫn bán hàng</a></li>
+              <li><a href="#" class="text-secondary">Thanh toán</a></li>
+              <li><a href="#" class="text-secondary">Vận chuyển</a></li>
+              <li><a href="#" class="text-secondary">Trả hàng & Hoàn tiền</a></li>
+              <li><a href="#" class="text-secondary">Chăm sóc khách hàng</a></li>
+              <li><a href="#" class="text-secondary">Chính sách bảo hành</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="about">
+            <div class="title fw-bold">Về Lungg</div>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-secondary">Giới thiệu về Lungg Việt Nam</a></li>
+              <li><a href="#" class="text-secondary">Tuyển dụng</a></li>
+              <li><a href="#" class="text-secondary">Điều khoản Lungg</a></li>
+              <li><a href="#" class="text-secondary">Chính sách bảo mật</a></li>
+              <li><a href="#" class="text-secondary">Chính hãng</a></li>
+              <li><a href="#" class="text-secondary">Kênh người bán</a></li>
+              <li><a href="#" class="text-secondary">Flash sales</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="pay-transport">
+            <div class="pay mb-3">
+              <div class="title fw-bold">Thanh toán</div>
+              <div class="logo-bank row row-cols-3 g-1">
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/d4bbea4570b93bfd5fc652ca82a262a8"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/a0a9062ebe19b45c1ae0506f16af5c16"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/38fd98e55806c3b2e4535c4e4a6c4c08"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/9263fa8c83628f5deff55e2a90758b06"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/5e3f0bee86058637ff23cfdf2e14ca09"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/0217f1d345587aa0a300e69e2195c492"
+                    class="img-fluid border-0" alt=""></div>
+              </div>
+            </div>
+            <div class="transport">
+              <div class="title fw-bold">Đơn vị vận chuyển</div>
+              <div class="logo-ship row row-cols-3 g-1">
+                <div class="col"><img
+                    src="https://down-vn.img.susercontent.com/file/vn-50009109-159200e3e365de418aae52b840f24185"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/d10b0ec09f0322f9201a4f3daf378ed2"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img
+                    src="https://down-vn.img.susercontent.com/file/vn-50009109-64f0b242486a67a3d29fd4bcf024a8c6"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/59270fb2f3fbb7cbc92fca3877edde3f"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/957f4eec32b963115f952835c779cd2c"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/0d349e22ca8d4337d11c9b134cf9fe63"
+                    class="img-fluid border-0" alt=""></div>
+                <div class="col"><img src="https://down-vn.img.susercontent.com/file/3900aefbf52b1c180ba66e5ec91190e5"
+                    class="img-fluid border-0" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="fllow">
+            <div class="title fw-bold">Theo dõi chúng tôi trên</div>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-secondary d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-facebook me-2" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951">
+                    </path>
+                  </svg><span>Facebook</span></a></li>
+              <li><a href="#" class="text-secondary d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-instagram me-2" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.04-.851-.175-1.434-.372-1.943a3.913 3.913 0 0 0-.923-1.416 3.92 3.92 0 0 0-1.416-.923c-.51-.198-1.091-.333-1.943-.372C10.445.01 10.173 0 8 0zm0 1.446c2.137 0 2.39.008 3.233.047.78.036 1.204.166 1.487.276.374.145.64.319.92.598.28.279.453.546.598.92.11.283.24.706.276 1.487.039.843.047 1.096.047 3.233 0 2.137-.008 2.39-.047 3.233-.036.78-.166 1.204-.276 1.487a2.484 2.484 0 0 1-.598.92 2.487 2.487 0 0 1-.92.598c-.283.11-.706.24-1.487.276-.843.039-1.096.047-3.233.047-2.137 0-2.39-.008-3.233-.047-.78-.036-1.204-.166-1.487-.276a2.49 2.49 0 0 1-.92-.598 2.482 2.482 0 0 1-.598-.92c-.11-.283-.24-.706-.276-1.487-.039-.843-.047-1.096-.047-3.233 0-2.137.008-2.39.047-3.233.036-.78.166-1.204.276-1.487a2.482 2.482 0 0 1 .598-.92 2.484 2.484 0 0 1 .92-.598c.283-.11.706-.24 1.487-.276C5.61 1.454 5.863 1.446 8 1.446zM8 3.89a4.11 4.11 0 1 0 0 8.22 4.11 4.11 0 0 0 0-8.22zm0 6.774a2.664 2.664 0 1 1 0-5.328 2.664 2.664 0 0 1 0 5.328zm5.202-6.934a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0z">
+                    </path>
+                  </svg><span>Instagram</span></a></li>
+              <li><a href="#" class="text-secondary d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-linkedin me-2" viewBox="0 0 16 16">
+                    <path
+                      d="M0 1.146C0 .513.324 0 .722 0h14.556c.398 0 .722.513.722 1.146v13.708c0 .633-.324 1.146-.722 1.146H.722A.72.72 0 0 1 0 14.854V1.146zm4.8 12.248V6.169H2.542v7.225H4.8zm-1.3-8.21c.839 0 1.357-.553 1.357-1.245-.015-.707-.518-1.245-1.342-1.245-.823 0-1.357.538-1.357 1.245 0 .692.518 1.245 1.327 1.245h.015zm4.845 8.21V9.359c0-.216.016-.432.08-.586.174-.432.57-.878 1.235-.878.871 0 1.218.662 1.218 1.632v4.867h2.259V9.288c0-2.217-1.182-3.25-2.759-3.25-1.271 0-1.845.697-2.165 1.19v.03h-.015c.015-.01.03-.02.045-.03V6.17H7.148c.03.707 0 7.225 0 7.225h2.258z">
+                    </path>
+                  </svg><span>Linkedin</span></a></li>
+            </ul>
+          </div>
+          <div class="app">
+            <div class="title fw-bold">Tải ứng dụng Lungg ngay thôi</div>
+            <div class="app__qr">
+              <img src="https://down-vn.img.susercontent.com/file/a5e589e8e118e9375d7f274566f31a8b"
+                class="img-fluid border-0 mb-3" alt="">
+            </div>
+            <div class="app__download d-flex gap-1">
+              <img src="https://down-vn.img.susercontent.com/file/ad01628e90ddf248076685f73497c163"
+                class="img-fluid border-0" alt="">
+              <img src="https://down-vn.img.susercontent.com/file/ad01628e90ddf248076685f73497c163"
+                class="img-fluid border-0" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

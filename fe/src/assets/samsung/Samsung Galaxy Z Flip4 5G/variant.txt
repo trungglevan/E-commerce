@@ -1,0 +1,38 @@
+[
+{"color": "Tím",
+"storageCapacity": "128GB",
+"OrigianlPrice": 12990000,
+"sellPrice": 10990000,
+"available": 50
+},
+{"color": "Tím",
+"storageCapacity": "256GB",
+"OrigianlPrice": 14390000,
+"sellPrice": 13290000,
+"available": 50
+},
+{"color": "Vàng",
+"storageCapacity": "128GB",
+"OrigianlPrice": 12990000,
+"sellPrice": 10990000,
+"available": 50
+},
+{"color": "Vàng",
+"storageCapacity": "256GB",
+"OrigianlPrice": 14390000,
+"sellPrice": 13290000,
+"available": 50
+},
+{"color": "Xanh",
+"storageCapacity": "128GB",
+"OrigianlPrice": 12990000,
+"sellPrice": 10990000,
+"available": 50
+},
+{"color": "Xanh",
+"storageCapacity": "256GB",
+"OrigianlPrice": 14390000,
+"sellPrice": 13290000,
+"available": 50
+}
+]

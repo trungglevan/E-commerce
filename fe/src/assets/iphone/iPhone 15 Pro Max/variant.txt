@@ -1,0 +1,73 @@
+[{"color": "Titan Xanh",
+"storageCapacity": "256GB",
+"OrigianlPrice": 29890000,
+"sellPrice": 28890000,
+"available": 50
+},
+{"color": "Titan Xanh",
+"storageCapacity": "512GB",
+"OrigianlPrice": 36990000,
+"sellPrice": 35690000,
+"available": 50
+},
+{"color": "Titan Xanh",
+"storageCapacity": "1TB",
+"OrigianlPrice": 43990000,
+"sellPrice": 42590000,
+"available": 50
+},
+{"color": "Titan Đen",
+"storageCapacity": "256GB",
+"OrigianlPrice": 30490000,
+"sellPrice": 29490000,
+"available": 50
+},
+{"color": "Titan Đen",
+"storageCapacity": "512GB",
+"OrigianlPrice": 36990000,
+"sellPrice": 35690000,
+"available": 50
+},
+{"color": "Titan Đen",
+"storageCapacity": "1TB",
+"OrigianlPrice": 43990000,
+"sellPrice": 42590000,
+"available": 50
+},
+{"color": "Titan Tự Nhiên",
+"storageCapacity": "256GB",
+"OrigianlPrice": 30690000,
+"sellPrice": 29690000,
+"available": 50
+},
+{"color": "Titan Tự Nhiên",
+"storageCapacity": "512GB",
+"OrigianlPrice": 36990000,
+"sellPrice": 35690000,
+"available": 50
+},
+{"color": "Titan Tự Nhiên",
+"storageCapacity": "1TB",
+"OrigianlPrice": 43990000,
+"sellPrice": 42590000,
+"available": 50
+},
+{"color": "Titan Trắng",
+"storageCapacity": "256GB",
+"OrigianlPrice": 30790000,
+"sellPrice": 29790000,
+"available": 50
+},
+{"color": "Titan Trắng",
+"storageCapacity": "512GB",
+"OrigianlPrice": 36990000,
+"sellPrice": 35690000,
+"available": 50
+},
+{"color": "Titan Trắng",
+"storageCapacity": "1TB",
+"OrigianlPrice": 43990000,
+"sellPrice": 42590000,
+"available": 500
+}
+]

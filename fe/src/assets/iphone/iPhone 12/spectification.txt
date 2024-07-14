@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 6.1,
+	"screenTechnoloy": "OLED",
+	"cameraRear": "-12 MP, f/1.6, 26mm (wide), 1.4µm, dual pixel PDAF, OIS -12 MP, f/2.4, 120˚, 13mm (ultrawide), 1/3.6",
+	"cameraFront": "12 MP, f/2.2, 23mm (wide), 1/3.6 SL 3D, (depth/biometrics sensor)",
+	"chipset": "Apple A14 Bionic",
+	"ram": "4GB",
+	"rom": "64GB",
+	"battery": 2815,
+	"operaSystem": "iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành)",
+	"screenResolution": "1792 x 828 pixel"
+}

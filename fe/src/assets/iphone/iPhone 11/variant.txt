@@ -1,0 +1,26 @@
+[
+{"color": "Trắng",
+"storageCapacity": "64GB",
+"OrigianlPrice": 9590000,
+"sellPrice": 9590000,
+"available": 50
+},
+{"color": "Trắng",
+"storageCapacity": "128GB",
+"OrigianlPrice": 10990000,
+"sellPrice": 10590000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "64GB",
+"OrigianlPrice": 12090000,
+"sellPrice": 11790000,
+"available": 50
+},
+{"color": "Đen",
+"storageCapacity": "128GB",
+"OrigianlPrice": 13490000,
+"sellPrice": 13090000,
+"available": 50
+}
+]

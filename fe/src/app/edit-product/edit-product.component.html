@@ -1,0 +1,122 @@
+<div class="container my-4">
+    <h2 class="mb-4 text-center">Update Product</h2>
+    <form id="addProductForm" class="row">
+        <div class="col-6">
+            <!-- Product Details -->
+            <div class="form-section">
+                <h3>Product Details</h3>
+                <div class="mb-3">
+                    <label for="productId" class="form-label">Product ID:</label>
+                    <input type="text" class="form-control" id="productId" name="productId"
+                        value="carouselExampleIndicators1" readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="productName" class="form-label">Product Name:</label>
+                    <input type="text" class="form-control" id="productName" name="productName" value="iPhone 11"
+                        required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="productDescription" class="form-label">Description:</label>
+                    <textarea class="form-control" id="productDescription" name="productDescription" rows="3"
+                        required>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</textarea>
+                </div>
+            </div>
+            <!-- Stock -->
+            <div class="form-section">
+                <h3>Stock</h3>
+                <div class="mb-3">
+                    <label for="quantity" class="form-label">Quantity:</label>
+                    <input type="number" class="form-control w-25" id="quantity" name="quantity" value="0" required
+                        min="0">
+                </div>
+            </div>
+            <!-- Stock and Bestseller -->
+            <div class="form-section">
+                <h3>Status</h3>
+                <div class="form-check form-switch mb-3">
+                    <input class="form-check-input" type="checkbox" id="isInstock" name="isInstock" checked>
+                    <label class="form-check-label" for="isInstock">In Stock</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="isBestseller" name="isBestseller">
+                    <label class="form-check-label" for="isBestseller">Bestseller</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <!-- Pricing -->
+            <div class="form-section">
+                <h3>Pricing</h3>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label for="originalPrice" class="form-label">Original Price:</label>
+                        <input type="number" class="form-control" id="originalPrice" name="originalPrice" value="280"
+                            required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="currentPrice" class="form-label">Current Price:</label>
+                        <input type="number" class="form-control" id="currentPrice" name="currentPrice" value="208"
+                            required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="priceUnit" class="form-label">Price Unit:</label>
+                        <input type="text" class="form-control" id="priceUnit" name="priceUnit" value="USD" required>
+                    </div>
+                </div>
+            </div>
+            <!-- Colors -->
+            <div class="form-sectiom">
+                <div class="mb-3">
+                    <div class="d-flex align-items-center">
+                        <button class="btn border rounded-circle my-2" (click)="addVariant($event)">
+                            <span class="icon">+</span>
+                        </button>
+                        <h3 class="mb-0">Add variant</h3>
+                    </div>
+                    <div *ngFor="let variant of variants; let i = index" class="row border m-0">
+                        <div class="col-12">
+                            <div class="row m-0 py-2">
+                                <div class="col-6 d-flex gap-3">
+                                    <input type="color" class="form-control form-control-color border border-0"
+                                        [id]="'colorInput' + i" [value]="variant.color" title="Choose your color"
+                                        [(ngModel)]="variant.color" name="color">
+                                    <input type="text" class="form-control w-50" placeholder="Customer name"
+                                        [(ngModel)]="variant.customerName" name="customerName">
+                                </div>
+                                <div class="col-6"><button class="btn" (click)="removeVariant(i)">X</button></div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <ngx-dropzone (change)="onSelect($event,i)">
+                                <ngx-dropzone-label>Drop it, baby!</ngx-dropzone-label>
+                                <ngx-dropzone-image-preview ngProjectAs="ngx-dropzone-preview"
+                                    *ngFor="let f of variant.image" [file]="f" [removable]="true"
+                                    (removed)="onRemove(f,i)">
+                                    <!-- <ngx-dropzone-label>{{ f.name }} ({{ f.type }})</ngx-dropzone-label> -->
+                                </ngx-dropzone-image-preview>
+                            </ngx-dropzone>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sizes -->
+            <div class="form-section">
+                <h3>Sizes</h3>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-light border">64GB</button>
+                    <button class="btn btn-light">128GB</button>
+                    <button class="btn btn-light">256GB</button>
+                    <button class="btn btn-light">512GB</button>
+                    <button class="btn btn-light">1TB</button>
+                </div>
+            </div>
+        </div>
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-outline-primary col">Save</button>
+    </form>
+</div>

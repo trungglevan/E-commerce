@@ -1,0 +1,102 @@
+<div class="main">
+    <div class="row">
+        <div class="col-sm-7 mt-3">
+            <div id="{{dataProducts._id}}" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div *ngFor="let slide of product_tmp; index as i" class="carousel-item"
+                        [ngClass]="[i===0?'active':'']">
+                        <img [src]="slide" class="d-block w-100" alt="Slide1">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" attr.data-bs-target="#{{dataProducts._id}}"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" attr.data-bs-target="#{{dataProducts._id}}"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="description">
+                <h5>About this product</h5>
+                <p>{{dataProducts.description}}</p>
+            </div>
+        </div>
+        <div class="col-sm-5 mt-3">
+            <div class="card-body">
+                <div class="content">
+                    <h5 class="card-title">{{dataProducts.name}}</h5>
+                </div>
+                <div class="d-flex justify-content-start align-items-baseline gap-2">
+                    <span class="text-danger fs-4 fw-bolder">{{dataProducts.current_price}}</span>
+                    <span class="text-secondary text-decoration-line-through">{{dataProducts.original_price}}</span>
+                </div>
+                <div class="color mt-2">
+                    <h6 class="">Color</h6>
+                    <div class="h-25 d-flex justify-content-start align-items-center gap-3">
+                        <div *ngFor="let c of dataProducts.colors; index as i"
+                            [ngClass]="['d-flex justify-content-center align-items-center border-3 p-1 rounded-circle', c.classBorder, i === 0 ? 'border' : '', selectedColor === c.color_name ? 'border shadow-lg' : ''] ">
+                            <button class="btn rounded-circle"
+                                [ngClass]="[c.classBtn, selectedColor === c.color_name ? 'shadow-lg' : '']"
+                                [style.width.px]="25" [style.height.px]="25"
+                                (click)="selectColor(c.color_name)"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="size mt-2">
+                    <h6>Size</h6>
+                    <div class="d-flex justify-content-start align-items-center gap-2">
+                        <button *ngFor="let s of dataProducts.size" type="button" class="btn rounded-pill"
+                            [ngClass]="{'btn-light': selectedSize !== s, 'btn-dark': selectedSize === s}"
+                            (click)="selectSize(s)">{{ s }}</button>
+                    </div>
+                </div>
+                <div class="quantity mt-2">
+                    <div class="title d-flex justify-content-start align-items-center gap-2 mb-1">
+                        <h6 class="mb-0">Quantity</h6>
+                        <span class="badge rounded-pill"
+                            [ngClass]="{'text-bg-success': dataProducts.isInStock, 'text-bg-danger': !dataProducts.isInStock}">{{
+                            dataProducts.isInStock ? 'In Stock' :
+                            'Out of Stock' }}</span>
+                    </div>
+                    <div class="border rounded w-50 py-1 px-1 d-flex justify-content-around align-items-center">
+                        <button class="btn btn-light" (click)="down()">-</button>
+                        <input type="text" value="{{checkBuy.quantity}}" class="btn form-control" readonly>
+                        <button class="btn btn-light" (click)="up()">+</button>
+                    </div>
+                </div>
+                <div class="buy mt-2 d-flex justify-content-around align-items-center border rounded py-2">
+                    <div class="position-relative" style="cursor: pointer;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                        </svg>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </div>
+                    <div class="position-relative" style="cursor: pointer;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-bag-plus" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5" />
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                        </svg>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </div>
+                    <button class="btn btn-outline-primary" [disabled]="isDisabled" (click)="buyNow()">Buy Now</button>
+                </div>
+                <button class="btn btn-light w-100 mt-2">Total Price: ${{total}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+

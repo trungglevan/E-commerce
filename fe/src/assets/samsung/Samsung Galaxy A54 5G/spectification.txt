@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 6.4,
+	"screenTechnoloy": "Super AMOLED",
+	"cameraRear": "-Camera góc rộng: 50 MP, f/1.8, PDAF, OIS -Camera góc siêu rộng: 12MP, f/2.2, 123˚, 1.12µm -Camera macro: 5MP, f/2.4",
+	"cameraFront": "Camera góc rộng: 32 MP, f/2.2, 26mm, 1/2.8", 0.8µm",
+	"chipset": "Exynos 1380 (5 nm)",
+	"ram": "8GB",
+	"rom": "128GB",
+	"battery": 5000,
+	"operaSystem": "Android 13",
+	"screenResolution": "1080 x 2340 pixel (FullHD+)"
+}

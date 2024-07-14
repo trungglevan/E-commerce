@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 6.7,
+	"screenTechnoloy": "Super Retina XDR OLED",
+	"cameraRear": "-Camera chính: 48MP, 24 mm, ƒ/1.78 -Camera góc siêu rộng: 12 MP, 13 mm, ƒ/2.2 -Camera tele: Camera Tele: 12 MP",
+	"cameraFront": "12MP, ƒ/1.9",
+	"chipset": "Apple A17 Pro 6 nhân",
+	"ram": "8GB",
+	"rom": "256GB",
+	"battery": 4422,
+	"operaSystem": "iOS 17",
+	"screenResolution": "2796 x 1290 pixel"
+}

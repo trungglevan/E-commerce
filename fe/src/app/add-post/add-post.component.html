@@ -1,0 +1,34 @@
+<div class="row my-5">
+    <div class="col-md-12">
+        <h1>New Post</h1>
+        <form [formGroup]="postForm" (submit)="onSubmit()">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" formControlName="title">
+                <div *ngIf="title && title.hasError('required')" class="text-danger">Title is required</div>
+                <div *ngIf="title && title.hasError('minlength')" class="text-danger">Title must be at least 5
+                    characters</div>
+            </div>
+            <div class="form-group">
+                <label for="body">Content</label>
+                <!-- <input type="file" id="content" formControlName="content"> -->
+                <textarea class="form-control" id="content" formControlName="content"></textarea>
+                <div *ngIf="content && content.hasError('required')" class="text-danger">Content is required</div>
+                <div *ngIf="content && content.hasError('minlength')" class="text-danger">Content must be at least 20
+                    characters</div>
+            </div>
+            <div class="form-group">
+                <label for="body">Author</label>
+                <textarea class="form-control" id="author" formControlName="author"></textarea>
+                <div *ngIf="author && author.hasError('required')" class="text-danger">Author is required</div>
+                <div *ngIf="author && author.hasError('minlength')" class="text-danger">Author must be at least 10
+                    characters</div>
+                <div *ngIf="author && author.hasError('email')" class="text-danger">Email is not valid</div>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="!postForm.valid">Submit</button>
+        </form>
+        <div *ngIf="postFlag" class="alert alert-success mt-3" role="alert">
+            {{message}}
+        </div>
+    </div>
+</div>

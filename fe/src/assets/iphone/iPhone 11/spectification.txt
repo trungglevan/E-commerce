@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 6.1,
+	"screenTechnoloy": "IPS LCD",
+	"cameraRear": "Camera kép 12MP:-Camera góc rộng: ƒ/1.8 aperture-Camera siêu rộng: ƒ/2.4 aperture",
+	"cameraFront": "12 MP, ƒ/2.2 aperture",
+	"chipset": "A13 Bionic",
+	"ram": "4GB",
+	"rom": "64GB",
+	"battery": 3110,
+	"operaSystem": "iOS 13 hoặc cao hơn (Tùy vào phiên bản phát hành)",
+	"screenResolution": "1792 x 828 pixel"
+}

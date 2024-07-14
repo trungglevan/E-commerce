@@ -1,0 +1,13 @@
+{
+	"sizeScreen": 6.7,
+	"screenTechnoloy": "Super Retina XDR OLED",
+	"cameraRear": "-Camera chính: 48 MP, f/1.8, 24mm, 1.22µm, PDAF, OIS -Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚, 1.4µm, PDAF
+	-Camera tele: 12 MP, f/2.8, 77mm (telephoto), PDAF, OIS, 3x optical zoom -Cảm biến độ sâu TOF 3D LiDAR",
+	"cameraFront": "Camera selfie: 12 MP, f/1.9, 23mm, 1/3.6, PDAF",
+	"chipset": "Apple A16 Bionic 6-core",
+	"ram": "6GB",
+	"rom": "128GB",
+	"battery": 4323,
+	"operaSystem": "iOS 16",
+	"screenResolution": "2796 x 1290 pixel"
+}

@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 6.1,
+	"screenTechnoloy": "Super Retina XDR OLED",
+	"cameraRear": "-Camera góc rộng: 12MP, f/1.6 -Camera góc siêu rộng: 12MP, ƒ/2.4",
+	"cameraFront": "12MP, f/2.2",
+	"chipset": "Apple A15",
+	"ram": "4GB",
+	"rom": "128GB",
+	"battery": 3240,
+	"operaSystem": "iOS 15",
+	"screenResolution": "2532 x 1170 pixel"
+}

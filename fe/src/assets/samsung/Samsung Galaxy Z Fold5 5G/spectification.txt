@@ -1,0 +1,12 @@
+{
+	"sizeScreen": 7.6,
+	"screenTechnoloy": "Dynamic AMOLED 2X",
+	"cameraRear": "-Camera siêu rộng: 12MP F2.2, 123°, 1.12μm -Camera góc rộng: 50MP, F1.8, Dual Pixel AF, OIS, 2.0μm -Camera Tele: 10 MP, F2.4, PDAF, OIS, 1.0μm, zoom 3X, zoom kỹ thuật số 30X",
+	"cameraFront": "-Camera bên ngoài:10 MP, f/2.2 -Camera bên trong: 4 MP, F1.8",
+	"chipset": "Snapdragon 8 Gen 2 for Galaxy (4nm) 8 nhân",
+	"ram": "12GB",
+	"rom": "256GB",
+	"battery":4400,
+	"operaSystem": "Android 13",
+	"screenResolution": "2176 x 1812 pixel (QXGA+)"
+}
